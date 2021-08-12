@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "260679191977",
+    "project_id": "notificationapp-7e686",
+    "storage_bucket": "notificationapp-7e686.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260679191977:android:dbb0531f860b6e07ae48b8",
+        "android_client_info": {
+          "package_name": "com.ruzzante.notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260679191977-i8pa745dcoje7kee6g5tjd0s8li9jimh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7MFUUj7kh9U_HV-sCVFQmi0sKNa6PRHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260679191977-i8pa745dcoje7kee6g5tjd0s8li9jimh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

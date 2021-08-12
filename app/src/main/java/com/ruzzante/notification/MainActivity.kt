@@ -2,7 +2,10 @@ package com.ruzzante.notification
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
+import com.google.firebase.messaging.FirebaseMessaging
+import com.google.firebase.messaging.FirebaseMessagingService
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,6 +19,8 @@ class MainActivity : AppCompatActivity() {
         btnSend.setOnClickListener {
             this.showNotification("1234", "bootcamp Android", "Kotlin Android Curso")
         }
+        MyFirebaseInstanceIdService().getInstance()
+
     }
 
 
